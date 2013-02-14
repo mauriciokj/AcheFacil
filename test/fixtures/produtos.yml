@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nivel: 
+  nome: MyString
+  preco: 1.5
+  quantidade: 1.5
+
+two:
+  nivel: 
+  nome: MyString
+  preco: 1.5
+  quantidade: 1.5

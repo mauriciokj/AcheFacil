@@ -1,0 +1,42 @@
+<% ambiente = @ambiente %>
+<h1><%= ambiente.nome %></h1>
+
+<div id="prateleiras_horizontais">
+  <table style="border: 1px solid red">
+    <tr>
+      <% ambiente.prateleiras.horizontais.sort.each do |ph| %>
+          <td style="border: 1px solid green" title="<%= ph.descricao %>" >
+            <div id="prateleira_<%= ph.id %>" class="prateleira horizontal" style="<%= ph.style %>"><%= ph.abreviado 1 %>
+            </div>
+          </td>
+      <% end %>
+    </tr>
+
+  </table>
+</div>
+
+<div id="prateleiras_verticais">
+  <table style="border: 1px solid red">
+    <tr>
+      <% ambiente.prateleiras.verticais.sort.each do |ph| %>
+          <td style="border: 1px solid green" title="<%= ph.descricao %>" >
+            <div id="prateleira_<%= ph.id %>" class="prateleira vertical" style="<%= ph.style %>"><%= ph.abreviado 1 %></div>
+          </td>
+      <% end %>
+    </tr>
+  </table>
+</div>
+
+<div id="ambiente" class="ambiente">
+  <table>
+    <% (1..6).each do |x| %>
+        <tr>
+          <% (1..6).each do |y| %>
+              <td id="dop_in_<%= x %>_<%= y %>" class="ambiente_interno" value="{:x => <%= x %>,:y => <%= y %>}"></td>
+          <% end %>
+        </tr>
+    <% end %>
+
+  </table>
+
+</div>

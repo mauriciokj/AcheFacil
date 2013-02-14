@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  descricao: MyString
+  x: 1
+  y: 1
+  posicao: MyString
+  tamanho: 1.5
+
+two:
+  descricao: MyString
+  x: 1
+  y: 1
+  posicao: MyString
+  tamanho: 1.5
