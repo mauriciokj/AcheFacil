@@ -2,11 +2,11 @@
 <h1><%= ambiente.nome %></h1>
 
 <div id="prateleiras_horizontais">
-  <table style="border: 1px solid red">
+  <table >
     <tr>
       <% ambiente.prateleiras.horizontais.sort.each do |ph| %>
-          <td style="border: 1px solid green" title="<%= ph.descricao %>" >
-            <div id="prateleira_<%= ph.id %>" class="prateleira horizontal" style="<%= ph.style %>"><%= ph.abreviado 1 %>
+          <td title="<%= ph.descricao %>" >
+            <div id="prateleira_<%= ph.id %>" class="prateleira_drag prateleira horizontal" style="<%= ph.style %>"><%= ph.abreviado 1 %>
             </div>
           </td>
       <% end %>
@@ -16,11 +16,11 @@
 </div>
 
 <div id="prateleiras_verticais">
-  <table style="border: 1px solid red">
+  <table>
     <tr>
       <% ambiente.prateleiras.verticais.sort.each do |ph| %>
-          <td style="border: 1px solid green" title="<%= ph.descricao %>" >
-            <div id="prateleira_<%= ph.id %>" class="prateleira vertical" style="<%= ph.style %>"><%= ph.abreviado 1 %></div>
+          <td title="<%= ph.descricao %>" >
+            <div id="prateleira_<%= ph.id %>" class="prateleira_drag prateleira vertical" style="<%= ph.style %>"><%= ph.abreviado 1 %></div>
           </td>
       <% end %>
     </tr>
@@ -32,7 +32,7 @@
     <% (1..6).each do |x| %>
         <tr>
           <% (1..6).each do |y| %>
-              <td id="dop_in_<%= x %>_<%= y %>" class="ambiente_interno" value="{:x => <%= x %>,:y => <%= y %>}"></td>
+              <td id="dop_in_<%= x %>_<%= y %>" class="drop ambiente_interno" value="{:x => <%= x %>,:y => <%= y %>}"></td>
           <% end %>
         </tr>
     <% end %>

@@ -5,7 +5,7 @@
     <tr>
       <% ambiente.prateleiras.horizontais.sort.each do |ph| %>
           <td >
-            <div id="prateleira_<%= ph.id %>" class="click prateleira horizontal" style="<%= ph.id == @prateleira.id ? "#{ph.style} background-color: blue" : ph.style  %>">
+            <div id="prateleira_<%= ph.id %>" class="prateleira horizontal" style="<%= ph.id == @prateleira.id ? "#{ph.style}" : ph.style  %>">
             </div>
           </td>
       <% end %>
@@ -17,9 +17,9 @@
 <div id="prateleiras_verticais">
   <table >
     <tr>
-      <% ambiente.prateleiras.verticais.sort.each do |pv| %>
+      <% ambiente.prateleiras.verticais.sort.each do |ph| %>
           <td >
-            <div id="prateleira_<%= pv.id %>" class="click prateleira vertical" style="<%= pv.id == @prateleira.id ? "#{pv.style} background-color: blue" : pv.style %>"></div>
+            <div id="prateleira_<%= ph.id %>" class="prateleira vertical" style="<%= ph.style %>"></div>
           </td>
       <% end %>
     </tr>

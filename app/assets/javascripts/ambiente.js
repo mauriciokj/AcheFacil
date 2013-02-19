@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    $(".prateleira").draggable({ revert: "invalid"});
+    $(".prateleira_drag").draggable({ revert: "invalid"});
 });
 
 $(document).ready(function () {
-    $(".ambiente_interno").droppable({
+    $(".drop").droppable({
         accept:".prateleira",
         hoverClass:"active",
         drop:function (event, props) {
