@@ -15,4 +15,6 @@ class PrateleirasController < ApplicationController
   end
 
 
+
+
 end

@@ -6,7 +6,15 @@ class ProdutosController < ApplicationController
 
   def pesquisa_produto_por_codigo_de_barra
     @ambiente = Ambiente.first
-    @prateleira = Produto.find_by_codigo_de_barras(params[:codigo_de_barras]).nivel.prateleira
+    @produto = Produto.find_by_codigo_de_barras(params[:codigo_de_barras])
+    @prateleira = @produto.nivel.prateleira
     render :action => "prateleiras"
+  end
+
+  def seleciona_prateleira
+    @produto = Produto.find(params[:produto_id])
+    @prateleira = @produto.prateleira
+    @nivel = @produto.nivel
+    render :action => 'prateleira_selecionada'
   end
 end 

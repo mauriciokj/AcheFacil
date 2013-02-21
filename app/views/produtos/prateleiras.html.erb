@@ -1,11 +1,12 @@
 <% ambiente = @ambiente %>
+<%= hidden_field_tag('produto_id', @produto.id) %>
 <h1><%= ambiente.nome %></h1>
 <div id="prateleiras_horizontais">
   <table>
     <tr>
       <% ambiente.prateleiras.horizontais.sort.each do |ph| %>
           <td >
-            <div id="prateleira_<%= ph.id %>" class="click prateleira horizontal" style="<%= ph.id == @prateleira.id ? "#{ph.style} background-color: blue" : ph.style  %>">
+            <div  id="prateleira_<%= ph.id %>" class="click prateleira horizontal" style="<%= ph.id == @prateleira.id ? "#{ph.style} background-color: blue" : ph.style  %>">
             </div>
           </td>
       <% end %>

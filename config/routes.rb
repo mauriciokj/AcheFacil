@@ -1,11 +1,14 @@
 AcheFacil::Application.routes.draw do
 
   match "pesquisa_produto_por_codigo_de_barra" => "produtos#pesquisa_produto_por_codigo_de_barra"
+  get 'produtos/seleciona_prateleira'
+
   resources :produtos do as_routes end
 
   resources :niveis do as_routes end
 
   get 'ambientes/vincula_prateleira'
+
   resources :ambientes do as_routes end
 
   resources :prateleiras do as_routes end
