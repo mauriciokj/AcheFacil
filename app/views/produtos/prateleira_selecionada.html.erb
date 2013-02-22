@@ -1,6 +1,27 @@
 <h2>Prateleira Selecionada</h2>
+<table>
+  <% marca_nivel = @produto.prateleira.id == @prateleira.id %>
+  <% @prateleira.niveis.each_with_index do |n, q| %>
+      <tr>
+        <td>
+          <% if (q + 1) == 1 %>
+              <%  estilo =  ((@produto.nivel.numero == n.numero) && (marca_nivel)) ? ' border: 1px solid red' :  ''  %>
+              <div style="<%= estilo %>" >
+                <%= image_tag("prateleira_topo.png", :size => "138x63") %>
+              </div   >
+          <% elsif (q + 1) == @prateleira.quantidade_de_niveis %>
+              <%  estilo =  ((@produto.nivel.numero == n.numero) && (marca_nivel)) ? 'margin-top: -8px; border: 1px solid red' :  'margin-top: -8px'  %>
+              <div style= "<%= estilo %>">
+                <%= image_tag("prateleira_fim.png", :size => "135x63") %>
+              </div>
+          <% else %>
+              <%  estilo =  ((@produto.nivel.numero == n.numero) && (marca_nivel)) ? 'margin-top: -8px; border: 1px solid red' :  'margin-top: -16px'  %>
+              <div style= "<%= estilo %>">
+                <%= image_tag("prateleira_meio.png", :size => "138x63") %>
+              </div>
+          <% end %>
+        </td>
+      </tr>
+  <% end %>
 
-<% @prateleira.niveis.each do |q| %>
-    <%= image_tag("prateleira_fim.png", :size => "138x63")  %>
-    <!--<img src="/images/prateleira_fim.png" height="138" width="63">-->
-<% end %>
+</table>

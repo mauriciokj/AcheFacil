@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery-ui
-//= require active_scaffold
 //= require jquery_ujs
 //= require_tree .
+//= require active_scaffold
 

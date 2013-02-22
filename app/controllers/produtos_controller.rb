@@ -12,8 +12,10 @@ class ProdutosController < ApplicationController
   end
 
   def seleciona_prateleira
+    puts ">>>>>>>>>>>>>"
+    puts params.inspect
     @produto = Produto.find(params[:produto_id])
-    @prateleira = @produto.prateleira
+    @prateleira = Prateleira.find(params[:prateleira_id].delete("prateleira_" ))
     @nivel = @produto.nivel
     render :action => 'prateleira_selecionada'
   end
