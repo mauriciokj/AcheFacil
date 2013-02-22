@@ -1227,54 +1227,54 @@ li.draggable-item input,
 
 /* line 1, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p362/bundler/gems/active_scaffold-d4a9c278b7e5/app/assets/stylesheets/active_scaffold_images.css.scss */
 .active-scaffold-header div.actions div.action_group div {
-  background-image: url(/assets/active_scaffold/gears.png);
+  background-image: url(/assets/active_scaffold/gears-6b47fb61dc74437a57d0b310e0eaa4ba.png);
   /* default icon for actions or override with css */
 }
 
 /* line 5, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p362/bundler/gems/active_scaffold-d4a9c278b7e5/app/assets/stylesheets/active_scaffold_images.css.scss */
 .active-scaffold-header div.actions a.show_config_list {
-  background-image: url(/assets/active_scaffold/config.png);
+  background-image: url(/assets/active_scaffold/config-6c4f0b314e91410cd5012a91701fcac2.png);
 }
 
 /* line 10, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p362/bundler/gems/active_scaffold-d4a9c278b7e5/app/assets/stylesheets/active_scaffold_images.css.scss */
 .active-scaffold-header div.actions a.new,
 .active-scaffold-header div.actions a.new_existing {
-  background-image: url(/assets/active_scaffold/add.png);
+  background-image: url(/assets/active_scaffold/add-3fdfde3ba4ab375de46ec7b075688866.png);
 }
 
 /* line 14, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p362/bundler/gems/active_scaffold-d4a9c278b7e5/app/assets/stylesheets/active_scaffold_images.css.scss */
 .active-scaffold-header div.actions a.show_search {
-  background-image: url(/assets/active_scaffold/magnifier.png);
+  background-image: url(/assets/active_scaffold/magnifier-d53ab3723c41e141827eaf9c28ff32e6.png);
 }
 
 /* line 18, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p362/bundler/gems/active_scaffold-d4a9c278b7e5/app/assets/stylesheets/active_scaffold_images.css.scss */
 .active-scaffold th.asc a {
-  background-image: url(/assets/active_scaffold/arrow_up.png);
+  background-image: url(/assets/active_scaffold/arrow_up-ca95f8c57666ef8e0f0ec755d06ae67e.png);
 }
 
 /* line 22, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p362/bundler/gems/active_scaffold-d4a9c278b7e5/app/assets/stylesheets/active_scaffold_images.css.scss */
 .active-scaffold th.desc a {
-  background-image: url(/assets/active_scaffold/arrow_down.png);
+  background-image: url(/assets/active_scaffold/arrow_down-fe862d955d65dd2a6833e100ce4070e5.png);
 }
 
 /* line 26, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p362/bundler/gems/active_scaffold-d4a9c278b7e5/app/assets/stylesheets/active_scaffold_images.css.scss */
 .active-scaffold th.loading a {
-  background-image: url(/assets/active_scaffold/indicator-small.gif);
+  background-image: url(/assets/active_scaffold/indicator-small-2dbb14722fe38dfc29ed0b9ee33fc18e.gif);
 }
 
 /* line 30, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p362/bundler/gems/active_scaffold-d4a9c278b7e5/app/assets/stylesheets/active_scaffold_images.css.scss */
 .active-scaffold a.inline-adapter-close {
-  background-image: url(/assets/active_scaffold/close.png);
+  background-image: url(/assets/active_scaffold/close-8edd95653fd6752f5be564a0352fb490.png);
 }
 
 /* line 34, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p362/bundler/gems/active_scaffold-d4a9c278b7e5/app/assets/stylesheets/active_scaffold_images.css.scss */
 .active-scaffold .sub-form .association-record a.destroy {
-  background-image: url(/assets/active_scaffold/cross.png);
+  background-image: url(/assets/active_scaffold/cross-347854b76d491352f5429d86706e1f79.png);
 }
 
 /* line 38, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p362/bundler/gems/active_scaffold-d4a9c278b7e5/app/assets/stylesheets/active_scaffold_images.css.scss */
 .as_touch a.inline-adapter-close {
-  background-image: url(/assets/active_scaffold/close_touch.png);
+  background-image: url(/assets/active_scaffold/close_touch-f433fcb0a24e07c0be38d38800160cf5.png);
 }
 
 /*
