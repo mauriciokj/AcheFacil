@@ -1,4 +1,5 @@
 class Prateleira < ActiveRecord::Base
+  MULTIPLICADOR_PIXELS = 60
   belongs_to :ambiente
   has_many :niveis, :autosave => true, :dependent => :delete_all
   attr_accessible :descricao, :posicao, :tamanho, :x, :y, :quantidade_de_niveis
@@ -41,6 +42,22 @@ class Prateleira < ActiveRecord::Base
   #  end
   #
   #end
+
+  def largura_em_pixels
+    if self.posicao == HORIZONTAL
+      (self.largura.to_f / 100.to_f) * MULTIPLICADOR_PIXELS
+    else
+      (self.comprimento.to_f / 100.to_f) * MULTIPLICADOR_PIXELS
+    end
+  end
+
+  def comprimento_em_pixels
+    if self.posicao == HORIZONTAL
+      (self.comprimento.to_f / 100.to_f) * MULTIPLICADOR_PIXELS
+    else
+      (self.largura.to_f / 100.to_f) * MULTIPLICADOR_PIXELS
+    end
+  end
 
   def quantidade_de_niveis
     niveis.count

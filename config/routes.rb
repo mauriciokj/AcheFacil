@@ -1,6 +1,7 @@
 AcheFacil::Application.routes.draw do
 
   match "pesquisa_produto_por_codigo_de_barra" => "produtos#pesquisa_produto_por_codigo_de_barra"
+  match 'pesquisa/:valor', :to => 'produtos#pesquisa', :as => 'pesquisa'
   get 'produtos/seleciona_prateleira'
 
   resources :produtos do as_routes end

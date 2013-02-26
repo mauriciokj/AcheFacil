@@ -1,25 +1,29 @@
-<h2>Prateleira Selecionada</h2>
+<h2>Prateleira <%= @prateleira.descricao %></h2>
 <table>
-  <% marca_nivel = @produto.prateleira.id == @prateleira.id %>
+  <% marca_nivel = @selecionada == "true" %>
   <% @prateleira.niveis.each_with_index do |n, q| %>
+      <%= puts @nivel.inspect    %>
+          <%=puts n.inspect    %>
       <tr>
         <td>
           <% if (q + 1) == 1 %>
-              <%  estilo =  ((@produto.nivel.numero == n.numero) && (marca_nivel)) ? ' border: 1px solid red' :  ''  %>
-              <div style="<%= estilo %>" >
+              <div>
                 <%= image_tag("prateleira_topo.png", :size => "138x63") %>
-              </div   >
+              </div>
           <% elsif (q + 1) == @prateleira.quantidade_de_niveis %>
-              <%  estilo =  ((@produto.nivel.numero == n.numero) && (marca_nivel)) ? 'margin-top: -8px; border: 1px solid red' :  'margin-top: -8px'  %>
-              <div style= "<%= estilo %>">
+              <div style="margin-top: -8px">
                 <%= image_tag("prateleira_fim.png", :size => "135x63") %>
               </div>
           <% else %>
-              <%  estilo =  ((@produto.nivel.numero == n.numero) && (marca_nivel)) ? 'margin-top: -8px; border: 1px solid red' :  'margin-top: -16px'  %>
-              <div style= "<%= estilo %>">
+              <div style="margin-top: -30px;">
                 <%= image_tag("prateleira_meio.png", :size => "138x63") %>
               </div>
           <% end %>
+        </td>
+        <td>
+          <div style="margin-top: -30px">
+            <%= image_tag("seta.jpg", :size => "60x40") if ((@nivel.numero == n.numero) && (marca_nivel)) %>
+          </div>
         </td>
       </tr>
   <% end %>

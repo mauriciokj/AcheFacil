@@ -1,6 +1,10 @@
 class Produto < ActiveRecord::Base
-  belongs_to :nivel
+  has_and_belongs_to_many :niveis
   attr_accessible :nome, :preco, :quantidade
-  delegate :prateleira, :to => :nivel, :allow_nill => true
+  #delegate :prateleiras, :to => :nivel, :allow_nill => true
 
+
+  def nivel(prateleira)
+    self.niveis.inject() {|v, (nivel)| v = nivel if  nivel.prateleira == prateleira ;v }
+  end
 end

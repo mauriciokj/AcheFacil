@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/activescaffold/active_scaffold.git
-  revision: d4a9c278b7e5cc4eeacc7657cac444c444baef49
+  revision: 0594e58e562bc444fcfcc7d8ad2cf82f7cd7dd70
   specs:
     active_scaffold (3.3.0.rc2)
       rails (~> 3.2.0)
@@ -78,7 +78,7 @@ GEM
     rake (10.0.3)
     rdoc (3.12.1)
       json (~> 1.4)
-    sass (3.2.5)
+    sass (3.2.6)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)

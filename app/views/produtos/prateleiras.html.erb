@@ -6,7 +6,7 @@
     <tr>
       <% ambiente.prateleiras.horizontais.sort.each do |ph| %>
           <td >
-            <div  id="prateleira_<%= ph.id %>" class="click prateleira horizontal" style="<%= ph.id == @prateleira.id ? "#{ph.style} background-color: blue" : ph.style  %>">
+            <div selecionada="<%= @prateleiras.include?(ph.id) %>" id="prateleira_<%= ph.id %>" class="click prateleira horizontal" style="height: <%=ph.largura_em_pixels %>px; width: <%=ph.comprimento_em_pixels %>px;<%= @prateleiras.include?(ph.id)  ? "#{ph.style} background-color: blue" : ph.style  %>">
             </div>
           </td>
       <% end %>
@@ -20,23 +20,13 @@
     <tr>
       <% ambiente.prateleiras.verticais.sort.each do |pv| %>
           <td >
-            <div id="prateleira_<%= pv.id %>" class="click prateleira vertical" style="<%= pv.id == @prateleira.id ? "#{pv.style} background-color: blue" : pv.style %>"></div>
+            <div  selecionada="<%= @prateleiras.include?(pv.id) %>" id="prateleira_<%= pv.id %>" class="click prateleira vertical" style="height: <%=pv.largura_em_pixels %>px; width: <%=pv.comprimento_em_pixels %>px; <%= @prateleiras.include?(pv.id) ? "#{pv.style} background-color: blue" : pv.style %>"></div>
           </td>
       <% end %>
     </tr>
   </table>
 </div>
 
-<div id="ambiente" class="ambiente">
-  <table>
-    <% (1..6).each do |x| %>
-        <tr>
-          <% (1..6).each do |y| %>
-              <td id="dop_in_<%= x %>_<%= y %>" class="ambiente_interno " value="{:x => <%= x %>,:y => <%= y %>}"></td>
-          <% end %>
-        </tr>
-    <% end %>
-
-  </table>
+<div class="drop " style="height: <%=ambiente.largura_em_pixels %>px; width: <%=ambiente.comprimento_em_pixels %>px; background-color: #999999;">
 
 </div>

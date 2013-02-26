@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130214001741) do
+ActiveRecord::Schema.define(:version => 20130226020222) do
 
   create_table "ambientes", :force => true do |t|
     t.string   "nome"
@@ -32,6 +32,14 @@ ActiveRecord::Schema.define(:version => 20130214001741) do
 
   add_index "niveis", ["prateleira_id"], :name => "index_niveis_on_prateleira_id"
 
+  create_table "niveis_produtos", :id => false, :force => true do |t|
+    t.integer "produto_id"
+    t.integer "nivel_id"
+  end
+
+  add_index "niveis_produtos", ["nivel_id", "produto_id"], :name => "index_niveis_produtos_on_nivel_id_and_produto_id"
+  add_index "niveis_produtos", ["produto_id", "nivel_id"], :name => "index_niveis_produtos_on_produto_id_and_nivel_id"
+
   create_table "prateleiras", :force => true do |t|
     t.string   "descricao"
     t.integer  "x"
@@ -42,10 +50,11 @@ ActiveRecord::Schema.define(:version => 20130214001741) do
     t.datetime "updated_at",  :null => false
     t.string   "style"
     t.integer  "ambiente_id"
+    t.integer  "largura"
+    t.integer  "comprimento"
   end
 
   create_table "produtos", :force => true do |t|
-    t.integer  "nivel_id"
     t.string   "nome"
     t.float    "preco"
     t.float    "quantidade"
@@ -53,7 +62,5 @@ ActiveRecord::Schema.define(:version => 20130214001741) do
     t.datetime "updated_at",       :null => false
     t.string   "codigo_de_barras"
   end
-
-  add_index "produtos", ["nivel_id"], :name => "index_produtos_on_nivel_id"
 
 end

@@ -1,0 +1,11 @@
+<ul>
+  <h1>Produtos encontrados</h1>
+  <% @produtos.each do |produto| %>
+      <li>
+        <div class='seleciona_produto' id="<%= produto.id %>">
+        <%=  hidden_field_tag "produto_#{produto.id}", produto.codigo_de_barras %>
+        <%= produto.nome %> - <%= produto.codigo_de_barras %>
+        </div>
+      </li>
+  <% end %>
+</ul>

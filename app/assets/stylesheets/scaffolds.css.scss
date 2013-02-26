@@ -6,31 +6,17 @@
 .horizontal {
   background-color: #ff0000;
   width: 60px;
-  height: 10px;
-  padding: 10px;
+  height: 20px;
+  padding: 0;
 }
 
 .vertical {
   background-color: #a52a2a;
-  width: 10px;
+  width: 20px;
   height: 60px;
-  padding: 10px;
-
+  padding: 0;
 }
 
-.ambiente {
-  background-color: #6495ed;
-  width: 600px;
-  height: 600px;
-  //float: right;
-}
-
-.ambiente_interno {
-  background-color: #999999;
-  width: 100px;
-  height: 100px;
-
-}
 
 body {
   background-color: #fff;

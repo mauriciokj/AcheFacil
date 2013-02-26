@@ -4,27 +4,31 @@
     <list default="true" id="d9e79809-4f7e-4a38-8509-c66f4a176dcd" name="Default" comment="" />
     <ignored path="AcheFacil.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/prateleira.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360837274556" ignored="false" />
+    <file path="/prateleira.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361741835689" ignored="false" />
     <file path="/index.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360605945740" ignored="false" />
-    <file path="/scaffolds.css.scss" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360278556383" ignored="false" />
-    <file path="/routes.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361410622534" ignored="false" />
-    <file path="/ambientes_controller.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360605965280" ignored="false" />
-    <file path="/ambiente.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360603981476" ignored="false" />
-    <file path="/posiciona.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360806869123" ignored="false" />
-    <file path="/prateleiras_controller.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361407797510" ignored="false" />
-    <file path="/inflections.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360609732194" ignored="false" />
+    <file path="/scaffolds.css.scss" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361648024951" ignored="false" />
+    <file path="/routes.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361593617871" ignored="false" />
+    <file path="/ambientes_controller.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361760541143" ignored="false" />
+    <file path="/ambiente.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361646872487" ignored="false" />
+    <file path="/posiciona.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361758237291" ignored="false" />
+    <file path="/prateleiras_controller.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361758036021" ignored="false" />
+    <file path="/inflections.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361844427138" ignored="false" />
     <file path="/prateleiras_helper.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360784845594" ignored="false" />
-    <file path="/nivel.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360801893518" ignored="false" />
-    <file path="/niveis_controller.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360837918808" ignored="false" />
-    <file path="/produtos_controller.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361543707730" ignored="false" />
+    <file path="/nivel.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361844982138" ignored="false" />
+    <file path="/niveis_controller.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361849584785" ignored="false" />
+    <file path="/produtos_controller.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361849187148" ignored="false" />
     <file path="/_prateleiras.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360840266114" ignored="false" />
     <file path="/application.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1360841387871" ignored="false" />
     <file path="$PROJECT_DIR$/config/database.yml" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361236162826" ignored="false" />
-    <file path="/prateleiras.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361410009870" ignored="false" />
+    <file path="/prateleiras.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361848811780" ignored="false" />
     <file path="/ambiente.js" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361412714200" ignored="false" />
-    <file path="/produto.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361411894493" ignored="false" />
+    <file path="/produto.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361848163425" ignored="false" />
     <file path="/prateleira.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361412006525" ignored="false" />
-    <file path="/prateleira_selecionada.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361544800507" ignored="false" />
+    <file path="/prateleira_selecionada.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361849665308" ignored="false" />
+    <file path="/produtos.html.erb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361632229265" ignored="false" />
+    <file path="/20130224210553_add_largura_e_comprimento_to_prateleiras.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361740107265" ignored="false" />
+    <file path="/20130226015841_create_produto_nivel.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361844457148" ignored="false" />
+    <file path="/20130226020222_remove_nivel_id_form_preco.rb" changelist="d9e79809-4f7e-4a38-8509-c66f4a176dcd" time="1361844382203" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,46 +45,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="posiciona.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/ambientes/posiciona.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="10" selection-start="102" selection-end="131" vertical-scroll-proportion="-0.64">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="produtos_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/produtos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="76" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ambiente.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/ambiente.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="3" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="niveis_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/niveis_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nivel.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/nivel.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="40" column="24" selection-start="1186" selection-end="1213" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,12 +57,70 @@
       <file leaf-file-name="prateleira_selecionada.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/produtos/prateleira_selecionada.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="166" selection-end="166" vertical-scroll-proportion="0.11895911">
+            <state line="2" column="40" selection-start="97" selection-end="97" vertical-scroll-proportion="0.05925926">
               <folding>
-                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prateleira.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/prateleira.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="6" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ambiente.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/ambiente.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="190" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prateleiras.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/produtos/prateleiras.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="59" selection-start="818" selection-end="818" vertical-scroll-proportion="-14.08">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="produto.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/produto.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="48" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nivel.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/nivel.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="35" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="niveis_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/niveis_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="52" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,21 +135,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/ambientes/posiciona.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/produtos/posiciona.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
+        <option value="$PROJECT_DIR$/db/migrate/20130224210553_add_largura_e_comprimento_to_prateleiras.rb" />
         <option value="$PROJECT_DIR$/app/models/prateleira.rb" />
-        <option value="$PROJECT_DIR$/app/views/produtos/_prateleiras.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/prateleiras_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/produto.rb" />
-        <option value="$PROJECT_DIR$/app/views/produtos/prateleira.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/ambiente.js" />
+        <option value="$PROJECT_DIR$/app/controllers/ambientes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/ambientes/posiciona.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130226020222_remove_nivel_id_form_preco.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/inflections.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130226015841_create_produto_nivel.rb" />
+        <option value="$PROJECT_DIR$/app/models/nivel.rb" />
         <option value="$PROJECT_DIR$/app/views/produtos/prateleiras.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/niveis_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/ambiente.js" />
         <option value="$PROJECT_DIR$/app/controllers/produtos_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/produto.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/niveis_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/produtos/prateleira_selecionada.html.erb" />
       </list>
     </option>
@@ -131,7 +157,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="724" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -178,7 +204,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,6 +219,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,6 +321,28 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ambientes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -286,6 +379,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -309,8 +406,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcheFacil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -592,14 +708,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="724" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28038898" sideWeight="0.3262987" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38897893" sideWeight="0.672524" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41734198" sideWeight="0.672524" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28038898" sideWeight="0.33441558" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -671,108 +787,124 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/produto.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="58" selection-start="158" selection-end="158" vertical-scroll-proportion="0.08679928">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/produtos/prateleiras.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="258" selection-end="258" vertical-scroll-proportion="0.24662814" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/prateleira_meio.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/prateleira_fim.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/prateleira.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="26" selection-start="991" selection-end="1011" vertical-scroll-proportion="0.75090253">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/prateleiras_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.45470694" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="643" selection-end="643" vertical-scroll-proportion="0.38225257" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="84" selection-start="438" selection-end="438" vertical-scroll-proportion="0.41235393">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="37" selection-start="174" selection-end="174" vertical-scroll-proportion="0.081911266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ambientes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="3" selection-start="452" selection-end="452" vertical-scroll-proportion="0.5075125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/niveis_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/nivel.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130214001741_add_codigo_de_barras_to_produto.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/ambiente.js">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130214001714_add_descricao_to_nivel.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="3" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
+        <state line="1" column="1" selection-start="53" selection-end="114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ambientes/posiciona.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130226015841_create_produto_nivel.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="102" selection-end="131" vertical-scroll-proportion="-0.64">
+        <state line="11" column="31" selection-start="350" selection-end="350" vertical-scroll-proportion="0.33082706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/inflections.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="46" selection-start="464" selection-end="464" vertical-scroll-proportion="0.30075186">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130226020222_remove_nivel_id_form_preco.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="46" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/prateleira.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="6" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/ambiente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="190" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/prateleiras_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="66" selection-start="160" selection-end="160" vertical-scroll-proportion="0.12331407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ambiente.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="263" selection-end="263" vertical-scroll-proportion="0.30449826">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/produtos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="76" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
+        <state line="40" column="24" selection-start="1186" selection-end="1213" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/produto.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="48" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/nivel.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="35" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/niveis_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="52" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/produtos/prateleiras.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="59" selection-start="818" selection-end="818" vertical-scroll-proportion="-14.08">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/produtos/prateleira_selecionada.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="166" selection-end="166" vertical-scroll-proportion="0.11895911">
+        <state line="2" column="40" selection-start="97" selection-end="97" vertical-scroll-proportion="0.05925926">
           <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

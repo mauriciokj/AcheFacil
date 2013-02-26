@@ -2,7 +2,7 @@ class PrateleirasController < ApplicationController
 
   active_scaffold :prateleira do |conf|
 
-    conf.columns = [:descricao, :posicao,:ambiente, :quantidade_de_niveis]
+    conf.columns = [:descricao, :posicao, :comprimento, :largura, :ambiente, :quantidade_de_niveis]
     conf.list.columns.exclude :ambiente, :niveis
     conf.list.columns << :quantidade_de_niveis
     conf.update.columns.exclude :quantidade_de_niveis
