@@ -25,7 +25,7 @@
         </td>
         <td>
           <div style="margin-top: -25px">
-            <%= "Nivel #{n.numero}" if ((@niveis.include? n) && (marca_nivel)) %>
+            <%= "Nivel #{n.numero}" if ((@nivel.numero == n.numero) && (marca_nivel)) %>
           </div>
         </td>
       </tr>

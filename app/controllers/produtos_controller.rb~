@@ -38,7 +38,7 @@ class ProdutosController < ApplicationController
     @prateleira = Prateleira.find(params[:prateleira_id].delete("prateleira_"))
     puts @produto.id
     puts @prateleira.id
-    @niveis = @produto.nivel(@prateleira)
+    @nivel = @produto.nivel(@prateleira)
     @selecionada = params[:selecionada]
     render :action => 'prateleira_selecionada'
   end

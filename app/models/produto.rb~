@@ -5,6 +5,6 @@ class Produto < ActiveRecord::Base
 
 
   def nivel(prateleira)
-    self.niveis.inject([]) {|v, (nivel)| v << nivel if  nivel.prateleira == prateleira ;v }
+    self.niveis.inject() {|v||=[], (nivel)| v << nivel if  nivel.prateleira == prateleira ;v }
   end
 end

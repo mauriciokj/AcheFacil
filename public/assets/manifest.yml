@@ -7,10 +7,12 @@ prateleira_topo.png: prateleira_topo-35699397a6f2ef7b42d7a4e550925abd.png
 prateleira_topo/index.png: prateleira_topo-35699397a6f2ef7b42d7a4e550925abd.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-application.js: application-2228ae6fde51dacf2d7f92c784c75974.js
-application/index.js: application-2228ae6fde51dacf2d7f92c784c75974.js
-application.css: application-3150688e4b14eabb6cbbe92309ad1b82.css
-application/index.css: application-3150688e4b14eabb6cbbe92309ad1b82.css
+seta.jpg: seta-df321555db7237f566ff1f35fc7844ef.jpg
+seta/index.jpg: seta-df321555db7237f566ff1f35fc7844ef.jpg
+application.js: application-40803a8cad58f01e4e413b95a5b87297.js
+application/index.js: application-40803a8cad58f01e4e413b95a5b87297.js
+application.css: application-be053b54be30a58b11898989a2a33bc4.css
+application/index.css: application-be053b54be30a58b11898989a2a33bc4.css
 active_scaffold/add.png: active_scaffold/add-3fdfde3ba4ab375de46ec7b075688866.png
 active_scaffold/add/index.png: active_scaffold/add-3fdfde3ba4ab375de46ec7b075688866.png
 active_scaffold/arrow_down.png: active_scaffold/arrow_down-fe862d955d65dd2a6833e100ce4070e5.png
