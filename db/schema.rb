@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130226020222) do
+ActiveRecord::Schema.define(:version => 20130304235910) do
 
   create_table "ambientes", :force => true do |t|
     t.string   "nome"
@@ -20,6 +20,18 @@ ActiveRecord::Schema.define(:version => 20130226020222) do
     t.float    "altura"
     t.float    "largura"
     t.float    "comprimento"
+    t.integer  "empresa_id"
+  end
+
+  create_table "empresas", :force => true do |t|
+    t.string   "nome"
+    t.string   "razao_social"
+    t.string   "cnpj"
+    t.string   "telefone"
+    t.string   "tipo"
+    t.string   "prateleira"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "niveis", :force => true do |t|
@@ -61,6 +73,7 @@ ActiveRecord::Schema.define(:version => 20130226020222) do
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
     t.string   "codigo_de_barras"
+    t.text     "descricao"
   end
 
 end

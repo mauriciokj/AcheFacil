@@ -11,4 +11,9 @@ class ApplicationController < ActionController::Base
 
   end
 
+
+  def empresa_logada
+    Empresa.find(1)
+  end
+
 end

@@ -1,20 +1,27 @@
 class ProdutosController < ApplicationController
   active_scaffold :produto do |conf|
-    conf.columns = [:nome, :quantidade, :preco, :codigo_de_barras, :niveis]
+    conf.columns = [:nome, :descricao, :quantidade, :preco, :codigo_de_barras, :niveis]
     conf.columns[:niveis].form_ui = :select
   end
 
   def pesquisa
+    puts ">>>>>>>>>>>>>>>>> ENTROU AQUI"
     @ambiente = Ambiente.first
-    @produto = Produto.find_by_codigo_de_barras(params[:valor])
-    if @produto
+    tipo =  params[:tipo]
+    if tipo == "ID"
+      @produto = (Produto.find_by_id(params[:valor])) rescue nil
+    else
+      @produto = (Produto.find_by_codigo_de_barras(params[:valor]))  rescue nil
+    end
+
+    if !@produto.blank?
       @prateleiras = []
       @produto.niveis.each do |nivel|
         @prateleiras << nivel.prateleira.id
       end
       render :action => "prateleiras"
     else
-      @produtos = Produto.where("nome ilike '%#{params[:valor]}%'")
+      @produtos = Produto.where("nome ilike '%#{params[:valor]}%' or descricao ilike '%#{params[:valor]}%'")
       render :action => "produtos"
     end
 

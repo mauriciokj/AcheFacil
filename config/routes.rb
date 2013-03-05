@@ -1,14 +1,22 @@
 AcheFacil::Application.routes.draw do
 
+  get 'ambientes/vincula_prateleira'
+
+  resources :empresas do as_routes end
+
   match "pesquisa_produto_por_codigo_de_barra" => "produtos#pesquisa_produto_por_codigo_de_barra"
-  match 'pesquisa/:valor', :to => 'produtos#pesquisa', :as => 'pesquisa'
+  match 'pesquisa/:valor/:tipo', :to => 'produtos#pesquisa', :as => 'pesquisa'
   get 'produtos/seleciona_prateleira'
 
   resources :produtos do as_routes end
 
   resources :niveis do as_routes end
 
-  get 'ambientes/vincula_prateleira'
+
+
+  match 'posiciona/:id', :to => 'ambientes#posiciona', :as => 'posiciona'
+
+
 
   resources :ambientes do as_routes end
 
@@ -65,7 +73,7 @@ AcheFacil::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-   root :to => 'ambientes#posiciona'
+   root :to => 'ambientes#seleciona_ambiente'
 
   # See how all your routes lay out with "rake routes"
 

@@ -22,7 +22,16 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $(".seleciona_produto").on("click", function (event) {
-        window.location = "/pesquisa/" + $('#produto_'+ $(this).attr('id') ).attr('value');
+        url = "/pesquisa/" + $('#produto_'+ $(this).attr('id') ).attr('value') + '/' + $('#tipo').attr('value');
+        window.location = url;
+    });
+});
+
+
+$(document).ready(function () {
+    $(".seleciona_ambiente").on("click", function (event) {
+        url = "/posiciona/" + $(this).attr('id');
+        window.location = url;
     });
 });
 

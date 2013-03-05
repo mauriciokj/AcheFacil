@@ -9,12 +9,9 @@ class PrateleirasController < ApplicationController
     conf.update.columns << :niveis
     conf.columns[:ambiente].form_ui = :select
     conf.columns[:posicao].form_ui = :select
-    conf.columns[:posicao].options = {:options => [[Prateleira::VERTICAL.humanize, Prateleira::VERTICAL], [Prateleira::HORIZONTAL.humanize,Prateleira::HORIZONTAL]]}
+    conf.columns[:posicao].options = {:options => [[Prateleira::VERTICAL.humanize, Prateleira::VERTICAL], [Prateleira::HORIZONTAL.humanize, Prateleira::HORIZONTAL]]}
     conf.nested.add_link :niveis
 
   end
-
-
-
 
 end

@@ -22,14 +22,20 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v3.2.11, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeresource (v3.2.11, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.2.11, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt-ruby (v3.0.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.4, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.3, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="devise (v2.2.3, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v2.1.4, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.4.4, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mechanize (v2.5.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.6.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-http-digest_auth (v1.2.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ntlm-http (v0.1.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.4.0, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v0.14.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: ruby-1.8.7-p371) [gem]" level="application" />
@@ -43,6 +49,10 @@
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.3, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.12, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.35, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf (v0.0.5, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf_ext (v0.0.5, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="webrobots (v0.0.13, RVM: ruby-1.8.7-p371) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

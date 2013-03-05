@@ -5,6 +5,7 @@
  ActiveSupport::Inflector.inflections do |inflect|
 #   inflect.plural /^(ox)$/i, '\1en'
 #   inflect.singular /^(ox)en/i, '\1'
+   inflect.irregular 'empresa', 'empresas'
    inflect.irregular 'prateleira', 'prateleiras'
    inflect.irregular 'nivel', 'niveis'
    inflect.irregular 'produto', 'produtos'

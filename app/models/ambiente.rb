@@ -2,6 +2,7 @@ class Ambiente < ActiveRecord::Base
   attr_accessible :nome
   MULTIPLICADOR_PIXELS = 30
   has_many :prateleiras, :autosave => true
+  belongs_to :empresa
 
   alias_attribute :to_label, :nome
 
