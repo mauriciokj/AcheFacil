@@ -6,15 +6,15 @@
         <td>
           <% if (q + 1) == 1 %>
               <div>
-                <%= image_tag("prateleira_topo.png", :size => "138x63") %>
+                <%= image_tag("prateleiras/#{@prateleira.imagem}_topo.png", :size => "138x63") %>
               </div>
           <% elsif (q + 1) == @prateleira.quantidade_de_niveis %>
               <div style="margin-top: -8px">
-                <%= image_tag("prateleira_fim.png", :size => "135x63") %>
+                <%= image_tag("prateleiras/#{@prateleira.imagem}_fim.png", :size => "135x63") %>
               </div>
           <% else %>
               <div style="margin-top: -30px;">
-                <%= image_tag("prateleira_meio.png", :size => "138x63") %>
+                <%= image_tag("prateleiras/#{@prateleira.imagem}_meio.png", :size => "138x63") %>
               </div>
           <% end %>
         </td>

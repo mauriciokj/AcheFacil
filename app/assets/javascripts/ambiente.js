@@ -7,7 +7,7 @@ $(document).ready(function () {
         accept: ".prateleira",
         hoverClass: "active",
         drop: function (event, props) {
-            $.get("ambientes/vincula_prateleira",
+            $.get("/ambientes/vincula_prateleira",
                 {drag_id: $(props.draggable).attr("id"),
                     drop_id: $(this).attr("id"),
                     valor: $(this).attr("value"),
@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $(".seleciona_produto").on("click", function (event) {
-        url = "/pesquisa/" + $('#produto_'+ $(this).attr('id') ).attr('value') + '/' + $('#tipo').attr('value');
+        url = "/pesquisa/" + $('#produto_' + $(this).attr('id')).attr('value') + '/' + $('#tipo').attr('value');
         window.location = url;
     });
 });
@@ -37,6 +37,6 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $(".click").on("click", function (event) {
-        window.location = "/produtos/seleciona_prateleira?prateleira_id=" + $(this).attr('id')  + "&produto_id=" + $('#produto_id').attr('value')+ "&selecionada=" + $(this).attr('selecionada') ;
+        window.location = "/produtos/seleciona_prateleira?prateleira_id=" + $(this).attr('id') + "&produto_id=" + $('#produto_id').attr('value') + "&selecionada=" + $(this).attr('selecionada');
     });
 });

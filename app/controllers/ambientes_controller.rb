@@ -26,9 +26,11 @@ class AmbientesController < ApplicationController
 
   def vincula_prateleira
     puts "ENTROU AQUI"
-    prateleira = Prateleira.find(params[:drag_id].delete("prateleira_"))
-    estilo = $2 if params[:style] =~ /; width: (\d*)px;(...*)/
 
+    prateleira = Prateleira.find(params[:drag_id].delete("prateleira_"))
+    estilo = $2 if params[:style] =~ /; width: ([\d|\.]*)px;(...*)/
+    puts params[:style].inspect
+    puts estilo
     prateleira.style = estilo
     prateleira.save
 
