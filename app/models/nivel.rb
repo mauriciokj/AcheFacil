@@ -3,6 +3,7 @@ class Nivel < ActiveRecord::Base
   has_and_belongs_to_many :produtos
   attr_accessible :numero
   validates :numero, :presence => true
+  delegate :ambiente,  :to => :prateleira
 
   def to_label
     "#{self.prateleira.descricao} - #{self.numero} - #{self.descricao}" rescue ""

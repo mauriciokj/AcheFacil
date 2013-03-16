@@ -1,0 +1,11 @@
+<ul>
+  <h1>Ambientes</h1>
+  <%= hidden_field_tag('produto_id', @produto.id) %>
+  <% @ambientes.each do |ambiente| %>
+      <li>
+        <div class='ambiente' id="<%= ambiente.id %>">
+          <%= ambiente.nome %>
+        </div>
+      </li>
+  <% end %>
+</ul>

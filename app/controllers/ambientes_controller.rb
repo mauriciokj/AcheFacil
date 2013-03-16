@@ -1,7 +1,8 @@
 class AmbientesController < ApplicationController
 
   active_scaffold :ambiente do |conf|
-    conf.columns = [:nome, :altura, :comprimento, :largura]
+    conf.columns = [:nome, :imagem_chao, :altura, :comprimento, :largura]
+    conf.list.columns.exclude :imagem_chao
     conf.nested.add_link(:prateleiras)
   end
 

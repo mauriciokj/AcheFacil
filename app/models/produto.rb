@@ -7,4 +7,13 @@ class Produto < ActiveRecord::Base
   def nivel(prateleira)
     self.niveis.inject([]) {|v, (nivel)| v << nivel if  nivel.prateleira == prateleira ;v }
   end
+
+  def em_mais_de_um_ambiente?
+    ambientes.count > 1
+  end
+
+
+  def ambientes
+    self.niveis.inject([]) {|v, (nivel)| v << nivel.ambiente ;v.uniq }
+  end
 end
