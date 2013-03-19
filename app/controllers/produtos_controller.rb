@@ -10,21 +10,23 @@ class ProdutosController < ApplicationController
     @ambiente = Ambiente.find_by_id(params[:ambiente])
     puts @ambiente.inspect
     tipo = params[:tipo]
+    puts
     if tipo == "ID" && @produto.blank?
       @produto = (Produto.find_by_id(params[:valor])) rescue nil
     else
       @produto = (Produto.find_by_codigo_de_barras(params[:valor])) rescue nil
     end
-    puts @produto.inspect
-    puts  @ambiente.blank?
-    puts @produto.em_mais_de_um_ambiente?
-    if @ambiente.blank? && @produto.em_mais_de_um_ambiente?
+    #puts @produto.inspect
+    #puts  @ambiente.blank?
+    #puts @produto.em_mais_de_um_ambiente?
+    if @ambiente.blank? && (@produto.em_mais_de_um_ambiente? rescue false)
       puts "retorno os ambientes"
       @ambientes = @produto.ambientes
       render :action => "ambientes"
     else
-       @ambiente = @produto.ambientes.first
+
       if !@produto.blank?
+        @ambiente = @produto.ambientes.first
         @prateleiras = []
         @produto.niveis.each do |nivel|
           @prateleiras << nivel.prateleira.id
