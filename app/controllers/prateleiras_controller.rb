@@ -14,8 +14,9 @@ class PrateleirasController < ApplicationController
 
   end
 
-  def before_create_save(record)
-    record.style =  " position: relative; left: -4527px; top: 134px;"
+  def vincular_produtos
+    @prateleiras = empresa_logada.prateleiras
+    render :action => 'vincular_produtos'
   end
 
 end

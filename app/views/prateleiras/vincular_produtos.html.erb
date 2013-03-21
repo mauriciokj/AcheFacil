@@ -1,0 +1,5 @@
+<% lista_de_prateleiras = @prateleiras.sort_by{|p| p.descricao}.inject([]){|r, prateleira| r << [prateleira.descricao,prateleira.id]; r }%>
+<%= label_tag 'prateleiras', "Prateleiras" %>
+<%= select_tag 'prateleiras', options_for_select(lista_de_prateleiras), { :prompt => " - Selecione - "} %>
+<div id="seleciona_produtos">
+</div>
