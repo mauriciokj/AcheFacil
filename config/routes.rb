@@ -1,5 +1,9 @@
 AcheFacil::Application.routes.draw do
 
+  devise_for :admins
+
+  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
+
   get 'ambientes/vincula_prateleira'
 
   resources :empresas do as_routes end

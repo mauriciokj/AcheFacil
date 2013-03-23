@@ -2,8 +2,12 @@ class Prateleira < ActiveRecord::Base
   MULTIPLICADOR_PIXELS = 60
   belongs_to :ambiente
   has_many :niveis, :autosave => true, :dependent => :delete_all
-  attr_accessible :descricao, :posicao, :tamanho, :x, :y, :quantidade_de_niveis, :comprimento, :largura, :imagem
+
+  accepts_nested_attributes_for :niveis
+  attr_accessible :descricao, :posicao, :tamanho, :x, :y, :quantidade_de_niveis, :comprimento, :largura, :imagem, :ambiente_id, :ambiente, :niveis_attributes, :style
+
   attr_accessor :quantidade_de_niveis
+
   VERTICAL = "VERTICAL"
   HORIZONTAL = "HORIZONTAL"
   validates :descricao, :presence => true

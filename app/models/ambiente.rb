@@ -1,8 +1,10 @@
 class Ambiente < ActiveRecord::Base
-  attr_accessible :nome
   MULTIPLICADOR_PIXELS = 60
   has_many :prateleiras, :autosave => true, :dependent => :delete_all
   belongs_to :empresa
+
+  accepts_nested_attributes_for :prateleiras
+  attr_accessible :nome, :altura, :largura, :comprimento, :empresa_id, :empresa, :imagem_chao, :prateleiras, :prateleiras_attributes
 
   alias_attribute :to_label, :nome
 

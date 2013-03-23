@@ -1,6 +1,9 @@
 class Produto < ActiveRecord::Base
   has_and_belongs_to_many :niveis
-  attr_accessible :nome, :preco, :quantidade
+
+  #accepts_nested_attributes_for :niveis
+  attr_accessible :nome, :preco, :quantidade, :descricao, :nivel_ids, :codigo_de_barras
+
   #delegate :prateleiras, :to => :nivel, :allow_nill => true
 
 
