@@ -1,0 +1,30 @@
+<h2>Prateleira <%= @prateleira.descricao %></h2>
+<h4>Selecione o nivel da prateleira, marque os produtos que deseja jogar para aquele nivel e arraste os para a prateleira.</h4>
+<table>
+  <% @prateleira.niveis.each_with_index do |n, q| %>
+      <tr>
+        <td>
+          <div style="margin-top: -30px;">
+            <%= radio_button_tag "record[prateleira_selecionada]", "" %>
+          </div>
+        </td>
+        <td>
+          <% if (q + 1) == 1 %>
+              <div>
+                <%= image_tag("prateleiras/#{@prateleira.imagem}_topo.png", :size => "138x63") %>
+              </div>
+          <% elsif (q + 1) == @prateleira.quantidade_de_niveis %>
+              <div style="margin-top: -8px">
+                <% tamanho = @prateleira.imagem == 'prateleira_metal' ? 134 : 138 %>
+                <%= image_tag("prateleiras/#{@prateleira.imagem}_fim.png", :size => "#{tamanho}x60") %>
+              </div>
+          <% else %>
+              <div style="margin-top: -30px;">
+                <%= image_tag("prateleiras/#{@prateleira.imagem}_meio.png", :size => "138x63") %>
+              </div>
+          <% end %>
+        </td>
+      </tr>
+  <% end %>
+
+</table>

@@ -1,5 +1,18 @@
-<% lista_de_prateleiras = @prateleiras.sort_by{|p| p.descricao}.inject([]){|r, prateleira| r << [prateleira.descricao,prateleira.id]; r }%>
+<% lista_de_prateleiras = @prateleiras.sort_by { |p| p.descricao }.map { |prateleira| [prateleira.descricao, prateleira.id] } %>
 <%= label_tag 'prateleiras', "Prateleiras" %>
-<%= select_tag 'prateleiras', options_for_select(lista_de_prateleiras), { :prompt => " - Selecione - "} %>
-<div id="seleciona_produtos">
-</div>
+<%= select_tag 'prateleiras', options_for_select(lista_de_prateleiras), {:prompt => " - Selecione - "} %>
+<table>
+  <tr>
+    <td>
+      <div id="seleciona_produtos">
+      </div>
+    </td>
+    <td>
+      <div id="produtos">
+        <%= render :partial => 'produtos' %>
+      </div>
+    </td>
+  </tr>
+</table>
+
+

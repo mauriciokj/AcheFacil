@@ -19,4 +19,9 @@ class PrateleirasController < ApplicationController
     render :action => 'vincular_produtos'
   end
 
+
+  def seleciona_prateleira_produto
+    @prateleira = Prateleira.find_by_id(params[:id])
+    render formats => [:js]
+  end
 end
