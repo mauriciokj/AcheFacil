@@ -18,6 +18,7 @@ AcheFacil::Application.routes.draw do
 
 
   match 'posiciona/:id', :to => 'ambientes#posiciona', :as => 'posiciona'
+  match 'seleciona_prateleira_produto/:id', :to => 'prateleiras#seleciona_prateleira_produto', :as => 'seleciona_prateleira_produto'
 
 
 

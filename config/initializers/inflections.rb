@@ -10,6 +10,7 @@
    inflect.irregular 'nivel', 'niveis'
    inflect.irregular 'produto', 'produtos'
    inflect.irregular 'nivel_produto', 'niveis_produtos'
+   inflect.irregular 'configuracao_boleto', 'configuracoes_boletos'
 
 #   inflect.uncountable %w( fish sheep )
  end

@@ -1,0 +1,1 @@
+<%= select_tag :produto_id, options_for_select(Produto.all.collect {|produto| [produto.nome, produto.id]}) %>

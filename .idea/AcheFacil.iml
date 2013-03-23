@@ -18,6 +18,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v3.2.11, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v3.2.11, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="active_scaffold (v@0594e5, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v3.2.11, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v3.2.11, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeresource (v3.2.11, RVM: ruby-1.8.7-p371) [gem]" level="application" />
@@ -26,6 +27,7 @@
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.4, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.3, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v2.2.3, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.7, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
@@ -38,6 +40,7 @@
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.4.0, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v0.14.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.5, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v3.2.11, RVM: ruby-1.8.7-p371) [gem]" level="application" />
@@ -46,6 +49,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.1, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, RVM: ruby-1.8.7-p371) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thor (v0.17.0, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.3, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.12, RVM: ruby-1.8.7-p371) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.35, RVM: ruby-1.8.7-p371) [gem]" level="application" />
