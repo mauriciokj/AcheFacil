@@ -1,4 +1,4 @@
-development:
+development: &default
   adapter: postgresql
   encoding: unicode
   database: ache_facil_development
@@ -8,19 +8,12 @@ development:
   host: localhost
 
 test:
-  adapter: postgresql
-  encoding: unicode
+  <<: *default
   database: ache_facil_test
-  pool: 5
-  username: postgres
-  password: postgres
-  host: localhost
 
 production:
-  adapter: postgresql
-  encoding: unicode
+  <<: *default
   host: 186.202.152.24
   database: babycho1
   username: babycho1
   password: pastelFrango13
-  pool: 5
