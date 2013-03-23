@@ -16,6 +16,10 @@ class Ambiente < ActiveRecord::Base
     self.comprimento * MULTIPLICADOR_PIXELS
   end
 
+  def imagem_chao_enum
+    ["piso01.jpg", "piso02.jpg", "piso03.jpg"]
+  end
+
 end
 # proporcao metros x pixels
 
